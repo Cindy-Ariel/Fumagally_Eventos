@@ -8,10 +8,12 @@ export const Linha_Superior_Header = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  position: fixed;
+  z-index: 1;
   span{
     display:flex;
   }
+
 `;
 
 export const Icone_Whats = styled(WhatsappLogo)`
@@ -27,7 +29,9 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: sticky;
+  translate: 0px 30px;
+  position: fixed;
+  z-index: 1;
 `;
 
 export const Logo = styled.img`
