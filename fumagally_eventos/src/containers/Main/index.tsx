@@ -4,7 +4,8 @@ export const Main = () => {
 return(
        <S.Main>  
         <S.Fundo_Imagem/> 
-        <S.Fundo_Branco>
+        <S.Sombra>
+          <S.Fundo_Branco>
             
         <S.Conteudo_Principal>
             <S.Titulo/>
@@ -12,7 +13,9 @@ return(
             <S.Botao/>
         </S.Conteudo_Principal>
       
-        </S.Fundo_Branco>
+        </S.Fundo_Branco>  
+        </S.Sombra>
+        
        
         
        </S.Main>

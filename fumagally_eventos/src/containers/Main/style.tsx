@@ -11,19 +11,25 @@ export const Fundo_Imagem = styled.img`
 width: 100vw;
 height: 100vh;
 position: absolute;
-background-color: orange;
+background-image: url("https://images.pexels.com/photos/1478685/pexels-photo-1478685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-repeat: no-repeat;
+background-size: cover;
 `
 
 export const Fundo_Branco = styled.div`
 width: 100vw;
 height: 100vh;
-background-color: #36b310;
+background-color: white;
 position: absolute;
 display: flex;
 align-items: flex-end;
-clip-path: polygon(0 0, 31% 0, 62% 100%, 0% 100%);
-`
+clip-path: polygon(0 0, 31% 0, 50% 100%, 0% 100%);
 
+
+`
+export const Sombra = styled.span`   
+filter: drop-shadow(10px -2rem 1rem rgba(0,0,0,0.5));
+`
 export const Conteudo_Principal = styled.div`
 padding: 50px;
 width: 35%;
