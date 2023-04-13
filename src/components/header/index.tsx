@@ -3,7 +3,7 @@ import * as S from "./style";
 export const Header = () => {
   return (
     <S.header>
-      <S.logo src="" alt="" />
+      <S.logo src="/logo2.png" />
 
       <S.navegacao>
         <S.ul>

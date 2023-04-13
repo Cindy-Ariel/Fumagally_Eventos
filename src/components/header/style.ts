@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-// import logo from '../../../public/logo2'
+import styled from 'styled-components';
+// import logo from '../../../public/logo2.png';
+
 
 export const header = styled.header`
 background-color: #3A1484;
@@ -14,9 +15,10 @@ font-weight: 500;
 
 `
 export const logo = styled.img`
-background-image: url('logo.png.jpg');
+/* background-image: url('../../../public/logo2.png'); */
 width: 200px;
-height: 60px;
+height: 90px;
+/* background-color: white; */
 `
 export const navegacao = styled.nav`
 background-color: aqua;
