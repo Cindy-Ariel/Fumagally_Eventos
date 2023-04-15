@@ -14,15 +14,17 @@ export const container = styled.div`
   height: 600px;
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
+  padding-top: 80px;
 
 `;
 export const containerTitulo = styled.div`
   background-color: aqua;
-  width: 100%;
-  height: 100px;
+  width: 60%;
+  height: 150px;
 `  
 
- const titulo = styled.h2`
+ export const titulo = styled.h2`
   width: 100%;
   font-size: 40px;
   color: #3a1484;
@@ -33,30 +35,15 @@ export const containerTitulo = styled.div`
   letter-spacing: 2px;
 `;
 
-export const bordaTopo = styled(titulo)`
-  position: relative;
-  
-  ::before {
-    content: ""; 
-    position: absolute;
-    bottom: -45px; 
-    left: 0; 
+export const bordaTopo = styled.div`
     width: 100%; 
     height: 9px; 
-    background-image: linear-gradient(to right, #000 0%, #000 10%, transparent 10%);} 
+    background-image: linear-gradient(to right, #000 0%, #000 10%, transparent 10%);
 `;
 
-export const containerTexto = styled.div`
-  background-color: black;
-  width: 100%;
-  height: 30%;
-  border-right: 8px solid yellow;
-  padding-right: 10px;
-  padding-top: 50px;
-  
-`;
+
 export const texto = styled.p`
-  width: 100%;
+  width: 80%;
   background-color: rosybrown;
   font-size: 20px;
   color: #54595f;
@@ -66,6 +53,9 @@ export const texto = styled.p`
   line-height: 25px;
   border-left: 10px;
   border-color: yellow;
+  border-right: 8px solid yellow;
+  padding-top:10px;
+
 `;
 export const botao1 = styled.button`
   background-color: yellow;
@@ -101,8 +91,8 @@ export const botao2 = styled.button`
 
 export const containerImagem = styled.div`
 background-color: purple;
-width: 70%;
-height: 600px;
+width: 100%;
+height: 100%;
 box-shadow: 0px 20px 20px gray;
 border-radius: 10px;
 display: flex;
